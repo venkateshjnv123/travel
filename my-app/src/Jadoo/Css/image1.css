@@ -1,0 +1,19 @@
+/* Decore */
+.background {
+position: absolute;
+width: 766.31px;
+height: 872.58px;
+left: 736px;
+top: -149px;
+
+background: #FFF1DA;
+}
+
+.links{
+    font-family: 'Open sans', sans-serif;
+    font-style: normal;
+    font-size: 17px;
+    font-weight: normal;
+    color: #212832;
+    text-decoration: none;
+}
