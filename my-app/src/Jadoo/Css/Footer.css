@@ -1,0 +1,76 @@
+.foot_head{
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 44px;
+line-height: 66px;
+/* identical to box height */
+
+
+/* 1st */
+
+color: #181E4B;
+}
+
+.foot_data{
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 124.5%;
+/* or 16px */
+
+
+/* TEXT CLR */
+
+color: #5E6282;
+}
+
+.foot_head1{
+    
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 21px;
+line-height: 124.5%;
+/* or 26px */
+
+
+/* black */
+
+color: #080809;
+}
+.list-items{
+    list-style-type: none;
+    list-style: none;
+    justify-content: flex-start;
+}
+.list-item{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 124.5%;
+/* or 22px */
+
+
+/* TEXT CLR */
+
+color: #5E6282;
+}
+
+.discover{
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 124.5%;
+/* identical to box height, or 25px */
+
+letter-spacing: 0.005em;
+
+/* TEXT CLR */
+
+color: #5E6282;
+
+}

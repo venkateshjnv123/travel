@@ -2,7 +2,9 @@
 <g filter="url(#filter0_d_1_131)">
 <circle cx="56" cy="56" r="26" fill="#DF6951"/>
 </g>
+<g transform = 'translate(0,10)'>
 <path d="M64 42.5L52.75 48.9952L52.75 36.0048L64 42.5Z" fill="white"/>
+</g>
 <defs>
 <filter id="filter0_d_1_131" x="0" y="0" width="112" height="112" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>

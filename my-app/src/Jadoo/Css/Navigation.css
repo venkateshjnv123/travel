@@ -1,0 +1,10 @@
+.img_main{
+    /* background-image: url(../Images/backgroundimg.svg);
+    float: right;
+    background-repeat: no-repeat; */
+    z-index: -1;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    margin-bottom: 100px;
+}

@@ -54,3 +54,16 @@
     line-height: 25px;
     color: #686d77;
 }
+
+.home_img{
+    z-index: -1;
+ right: 0px;
+    position: absolute;
+
+
+}
+
+.home{
+    position: relative;
+    margin-bottom: 200px;
+}

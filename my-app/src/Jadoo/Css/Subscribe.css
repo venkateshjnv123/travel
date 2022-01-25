@@ -1,0 +1,50 @@
+/* .subscribe {
+    width: 1170px;
+height: 407px;
+
+background: #DFD7F9;
+opacity: 0.2;
+border-radius: 20px 129px 20px 20px;
+/* //transform: matrix(-1, 0, 0, 1, 0, 0); 
+} */
+
+.sub_head{
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 33px;
+line-height: 54px;
+/* or 164% */
+
+text-align: center;
+
+color: #5E6282;
+}
+
+.sub_inp{
+   max-width: 421px;
+    height: 68px;
+    border-radius: 10px;
+    background: #fff;
+font-family:' FontAwesome';
+border: none;
+}
+
+.sub_btn {
+    width: 180px;
+    height: 68px;
+    background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
+    border-radius: 10px;
+    font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 23px;
+text-align: center;
+
+/* white */
+
+color: #FFFFFF;
+
+}
+

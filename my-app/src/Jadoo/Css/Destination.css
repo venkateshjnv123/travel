@@ -1,0 +1,43 @@
+.card-des{
+    max-width: 318px;
+    min-width: 318px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    position: absolute;
+    bottom: 30px;
+
+
+}
+
+.des_head{
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+text-align: center;
+
+/* TEXT CLR */
+
+color: #5E6282;
+}
+.dessubhead{
+    font-family: 'Volkhov', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 64px;
+/* identical to box height */
+
+text-align: center;
+text-transform: capitalize;
+
+/* 3rd */
+
+color: #14183E;
+}
+.containdes{
+    min-width: 310px;
+}
