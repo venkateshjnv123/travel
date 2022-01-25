@@ -41,7 +41,7 @@ box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 
 border-radius: 36px;
 border: none;
 }
-.card-title{
+.ccard-title{
     font-family: 'Open sans', sans-serif;
     font-style: normal;
 font-weight: 600;
@@ -51,7 +51,7 @@ text-align: center;
 color: #1E1D4C;
 }
 
-.card-text {
+.ccard-text {
     font-family: 'Poppins',sans-serif;
 font-style: normal;
 font-weight: 500;
@@ -68,4 +68,22 @@ color: #5E6282;
     z-index: -1;
     left: 0px;
     top: -60px;
+}
+
+
+@media screen and (max-width:700px) {
+    .active{
+        left: 15vw;
+    }
+    .catsubhead{
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .category{
+        margin-bottom: 0px;
+    }
+    .cat_img{
+        width: 20vw;
+        height: 20vh;
+    }
 }

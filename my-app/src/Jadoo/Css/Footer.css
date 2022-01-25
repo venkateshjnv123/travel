@@ -1,13 +1,13 @@
+.footer{
+    margin-top: 200px;
+}
+
 .foot_head{
     font-family: 'Poppins', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 44px;
 line-height: 66px;
-/* identical to box height */
-
-
-/* 1st */
 
 color: #181E4B;
 }
@@ -18,10 +18,6 @@ font-style: normal;
 font-weight: 500;
 font-size: 13px;
 line-height: 124.5%;
-/* or 16px */
-
-
-/* TEXT CLR */
 
 color: #5E6282;
 }
@@ -33,10 +29,7 @@ font-style: normal;
 font-weight: bold;
 font-size: 21px;
 line-height: 124.5%;
-/* or 26px */
-
-
-/* black */
+text-align: center;
 
 color: #080809;
 }
@@ -44,6 +37,12 @@ color: #080809;
     list-style-type: none;
     list-style: none;
     justify-content: flex-start;
+    text-align: left;
+}
+
+.foot_col1{
+    justify-content: flex-start;
+    text-align: left;
 }
 .list-item{
     font-family: Poppins;
@@ -51,10 +50,10 @@ font-style: normal;
 font-weight: 500;
 font-size: 18px;
 line-height: 124.5%;
-/* or 22px */
+
+text-align: left;
 
 
-/* TEXT CLR */
 
 color: #5E6282;
 }
@@ -65,12 +64,41 @@ font-style: normal;
 font-weight: 500;
 font-size: 20px;
 line-height: 124.5%;
-/* identical to box height, or 25px */
+
 
 letter-spacing: 0.005em;
 
-/* TEXT CLR */
+
+text-align: left;
+margin-left: 12px;
 
 color: #5E6282;
 
+}
+
+@media screen and (max-width:1200px) { 
+    .list-items{
+        text-align: center;
+    }
+    .foot_col1{
+        justify-content: center;
+        text-align: center;
+    }
+    .list-item{
+        text-align: center;
+    }
+    .discover{
+        text-align: center;
+    }
+    .icons{
+        text-align: center;
+    }
+
+    .store{
+        text-align: center;
+    }
+
+    .footer{
+        margin-top: 0px;
+    }
 }

@@ -57,13 +57,34 @@
 
 .home_img{
     z-index: -1;
- right: 0px;
+    right: 0px;
     position: absolute;
-
-
 }
 
 .home{
     position: relative;
     margin-bottom: 200px;
+}
+
+@media screen and (max-width:1050px) {
+    .home_img{
+        max-width: 50vw;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    .home_img{
+        max-width: 70vw;
+        z-index: 1;
+        position: relative;
+    }
+    .heading1{
+        font-size: 36px;
+        line-height: 39px;
+        letter-spacing: -0.01rem;
+    }
+    .home{
+        margin-bottom: 0px;
+    }
+    
 }

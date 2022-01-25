@@ -1,14 +1,15 @@
+.booking{
+    margin-top: 186px;
+    margin-bottom: 186px;
+}
+
+
 .booksubhead{
     font-family: 'Poppins', sans-serif;
 font-style: normal;
 font-weight: 600;
 font-size: 18px;
 line-height: 27px;
-/* identical to box height */
-
-text-align: center;
-
-/* TEXT CLR */
 
 color: #5E6282;
 }
@@ -21,7 +22,6 @@ font-size: 50px;
 line-height: 64px;
 text-transform: capitalize;
 
-/* 3rd */
 
 color: #14183E;
 
@@ -33,10 +33,7 @@ font-style: normal;
 font-weight: bold;
 font-size: 16px;
 line-height: 124.5%;
-/* identical to box height, or 20px */
 
-
-/* TEXT CLR */
 
 color: #5E6282;
 
@@ -58,19 +55,83 @@ color: #5E6282;
 
  .bookcard{
 position: absolute;
-top: 150px;
+top: 30px;
 background: #FFFFFF;
 box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
 border-radius: 26px;
-} 
+text-align: left;
+border: none;
+}  
 
 .subcard{
     background-color: #fff;
     box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
 border-radius: 18px;
     position: absolute;
-    top: 350px;
+    top: 220px;
     left: 280px;
     width: 263px;
     height: 129px;
+}
+
+.bookcol{
+    text-align: left;
+    margin-left: 50px;
+}
+
+.backimg_book{
+    z-index: -1;
+    position: relative;
+    top: -100px;
+    right: -10px;
+}
+
+.bookcard-title{
+font-family: 'Open sans', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 27px;
+color: #1E1D4C;
+}
+
+.bookcard-text {
+    font-family: 'Poppins',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+color: #5E6282;
+
+
+}
+
+.ongoing{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+letter-spacing: -0.02em;
+
+color: #84829A;
+}
+
+@media screen and (max-width:700px) {
+  .bookhead{
+      font-size: 25px;
+      line-height: 28px;
+  }
+  .bookcol{
+      justify-content: center;
+  }
+
+  .subcard {
+      width: 30vw;
+  }
+  .booking{
+      margin-bottom: 100px;
+  }
+.bookcard{
+    position: relative;
+}
 }

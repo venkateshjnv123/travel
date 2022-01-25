@@ -4,7 +4,7 @@ import rome from '../Images/destinations/rome.svg';
 import go from '../Images/destinations/go.svg';
 import london from '../Images/destinations/london.svg';
 import europe from '../Images/destinations/europe.svg';
-
+import decor from '../Images/destinations/decor.svg';
 import '../Css/Destination.css' ;
 function Destination() {
     const destinations =[
@@ -17,7 +17,7 @@ function Destination() {
             img : rome,
         },
         {
-            id:3,
+            id:2,
             city: 'London',
             Country:'UK',
             Trip : '12 days Trip',
@@ -36,14 +36,14 @@ function Destination() {
     ]
 
     return (
-        <div className='destination my-2 py-2'>
+        <div className='destination mt-1 pt-1'>
         <p className='des_head'>Top Selling</p>
         <p className='dessubhead' >Top Destinations</p>
-        <div className='row fs-6 mx-auto mt-4 pt-5' style={{width: '90%', justifyContent:'center'}} >
+        <div className='row fs-6 mx-auto mt-1 pt-1' style={{width: '90%', justifyContent:'center'}} >
    { destinations.map((item) => (
-      <div key={item.id} className='containdes col-lg-3 col-md-6 mb-3 mx-4 py-5 '  style={{position:'relative'}}>
-          <center>
-          <img src={item.img} alt={item.head} />
+      <div key={item.id} className='containdes col-lg-3 col-md-6 mb-3 mx-4 py-1 '  style={{position:'relative'}}>
+       
+          <img className="card-image" src={item.img} alt={item.head} />
           <div className='card-des mx-auto card'  >
                   <div className='card-body justify-content-space-between mb-3 pb-4'>
                       <p className='card-title' style={{float: 'left'}} >
@@ -59,11 +59,11 @@ function Destination() {
                     
              
               </div>
-              </center>
             
 
       </div>
    ))}
+   {/* //<img src={decor} alt='decor' /> */}
    </div>
     </div>
 )

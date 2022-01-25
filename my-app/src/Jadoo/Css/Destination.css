@@ -4,9 +4,7 @@
     border-bottom-left-radius: 24px;
     border-bottom-right-radius: 24px;
     position: absolute;
-    bottom: 30px;
-
-
+    bottom: 0px;
 }
 
 .des_head{
@@ -15,11 +13,11 @@ font-style: normal;
 font-weight: 600;
 font-size: 18px;
 line-height: 27px;
-/* identical to box height */
+
 
 text-align: center;
 
-/* TEXT CLR */
+
 
 color: #5E6282;
 }
@@ -29,15 +27,36 @@ font-style: normal;
 font-weight: bold;
 font-size: 50px;
 line-height: 64px;
-/* identical to box height */
+
 
 text-align: center;
 text-transform: capitalize;
 
-/* 3rd */
+
 
 color: #14183E;
 }
 .containdes{
     min-width: 310px;
+    margin-top: 150px;
+    filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02)) drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)) drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01)) drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)) drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
+}
+
+.destination{
+    margin-bottom: 186px;
+}
+
+@media screen and (max-width:700px) {
+   .dessubhead{
+       font-size: 28px;
+       line-height: 32px;
+   }
+   .containdes{
+       margin-top: 0px;
+       
+   }
+   .destination{
+       margin-bottom: 0px;
+   }
+
 }

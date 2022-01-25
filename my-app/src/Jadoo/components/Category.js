@@ -51,10 +51,10 @@ function Category(){
                   <center>
                       <img src={item.img} alt={item.head} className='my-2 py-2' width="90px" height="90px"/>
                       <div className='card-body'>
-                          <p className='card-title' >
+                          <p className='ccard-title' >
                               {item.head}
                           </p>
-                          <p className='card-text'>
+                          <p className='ccard-text'>
                               {item.data}
                           </p>
                       </div>
